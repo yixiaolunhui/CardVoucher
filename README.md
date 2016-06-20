@@ -3,6 +3,7 @@
 
 效果图:
 
+##1、水平
          <com.dalong.cardvoucherlayout.CardVoucherLayout
                 android:layout_width="match_parent"
                 android:layout_height="130dp"
@@ -30,7 +31,7 @@
 
 ![image](https://github.com/dalong982242260/CardVoucher/blob/master/img/cardvoucher1.png)
 
-
+##1、竖直
          <com.dalong.cardvoucherlayout.CardVoucherLayout
                 android:layout_width="match_parent"
                 android:layout_height="130dp"
@@ -58,6 +59,7 @@
 
 ![image](https://github.com/dalong982242260/CardVoucher/blob/master/img/cardvoucher2.png)
 
+##1、水平和竖直
         <com.dalong.cardvoucherlayout.CardVoucherLayout
                 android:layout_width="match_parent"
                 android:layout_height="130dp"
