@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CardVoucherLayout">
+        <attr name="CardVoucher_Radius" format="float"/>
+        <attr name="CardVoucher_Spacing" format="float"/>
+        <attr name="CardVoucher_Color" format="color"/>
+        <attr name="CardVoucher_Orientation">
+            <enum name="horizontal" value="0"/>
+            <enum name="vertical" value="1"/>
+            <enum name="all" value="2"/>
+        </attr>
+    </declare-styleable>
+
+
+</resources>
