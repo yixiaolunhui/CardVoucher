@@ -2,12 +2,16 @@
 卡券常用的锯齿布局
 
 效果图:
-
+##1、矩形
 ![image](https://github.com/dalong982242260/CardVoucher/blob/master/img/juxing.png)
+##2、三角形
 ![image](https://github.com/dalong982242260/CardVoucher/blob/master/img/sanjiao.png)
+##2、椭圆
 ![image](https://github.com/dalong982242260/CardVoucher/blob/master/img/tuoyuan.png)
+##2、圆形
 ![image](https://github.com/dalong982242260/CardVoucher/blob/master/img/yuanxing.png)
 
+使用:
 ##1、水平
          <com.dalong.cardvoucherlayout.CardVoucherLayout
                 android:layout_width="match_parent"
