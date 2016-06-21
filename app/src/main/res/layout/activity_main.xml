@@ -16,6 +16,7 @@
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:background="@color/colorAccent"
+        app:CardVoucher_Shape="ellipse"
         app:CardVoucher_Orientation="horizontal"
         app:CardVoucher_Radius="15"
         app:CardVoucher_Spacing="15"
@@ -42,6 +43,7 @@
         android:layout_marginRight="20dp"
         android:background="@color/colorAccent"
         app:CardVoucher_Orientation="vertical"
+        app:CardVoucher_Shape="ellipse"
         app:CardVoucher_Radius="15"
         app:CardVoucher_Spacing="15"
         app:CardVoucher_Color="@color/white">
@@ -65,6 +67,7 @@
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:background="@color/colorAccent"
+        app:CardVoucher_Shape="ellipse"
         app:CardVoucher_Orientation="all"
         app:CardVoucher_Radius="15"
         app:CardVoucher_Spacing="15"

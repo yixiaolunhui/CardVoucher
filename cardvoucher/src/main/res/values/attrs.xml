@@ -9,6 +9,12 @@
             <enum name="vertical" value="1"/>
             <enum name="all" value="2"/>
         </attr>
+        <attr name="CardVoucher_Shape">
+            <enum name="circle" value="0"/>
+            <enum name="rectangle" value="1"/>
+            <enum name="triangle" value="2"/>
+            <enum name="ellipse" value="3"/>
+        </attr>
     </declare-styleable>
 
 
