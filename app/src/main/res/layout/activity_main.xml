@@ -28,10 +28,7 @@
             android:textSize="40sp"
             android:textColor="@color/white"
             android:gravity="center"
-            app:layout_constraintBottom_toBottomOf="@+id/activity_main"
-            app:layout_constraintLeft_toLeftOf="@+id/activity_main"
-            app:layout_constraintRight_toRightOf="@+id/activity_main"
-            app:layout_constraintTop_toTopOf="@+id/activity_main" />
+           />
     </com.dalong.cardvoucherlayout.CardVoucherLayout>
 
     <com.dalong.cardvoucherlayout.CardVoucherLayout
@@ -54,10 +51,7 @@
             android:textSize="40sp"
             android:textColor="@color/white"
             android:gravity="center"
-            app:layout_constraintBottom_toBottomOf="@+id/activity_main"
-            app:layout_constraintLeft_toLeftOf="@+id/activity_main"
-            app:layout_constraintRight_toRightOf="@+id/activity_main"
-            app:layout_constraintTop_toTopOf="@+id/activity_main" />
+            />
     </com.dalong.cardvoucherlayout.CardVoucherLayout>
     <com.dalong.cardvoucherlayout.CardVoucherLayout
         android:layout_width="match_parent"
@@ -79,9 +73,6 @@
             android:textSize="40sp"
             android:textColor="@color/white"
             android:gravity="center"
-            app:layout_constraintBottom_toBottomOf="@+id/activity_main"
-            app:layout_constraintLeft_toLeftOf="@+id/activity_main"
-            app:layout_constraintRight_toRightOf="@+id/activity_main"
-            app:layout_constraintTop_toTopOf="@+id/activity_main" />
+            />
     </com.dalong.cardvoucherlayout.CardVoucherLayout>
 </LinearLayout>
