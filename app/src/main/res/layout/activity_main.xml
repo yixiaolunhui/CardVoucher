@@ -10,69 +10,50 @@
 
     <com.dalong.cardvoucherlayout.CardVoucherLayout
         android:layout_width="match_parent"
-        android:layout_height="130dp"
+        android:layout_height="120dp"
         android:gravity="center"
         android:layout_marginTop="20dp"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:background="@color/colorAccent"
-        app:CardVoucher_Shape="ellipse"
+        app:CardVoucher_Shape="circle"
         app:CardVoucher_Orientation="horizontal"
-        app:CardVoucher_Radius="15"
-        app:CardVoucher_Spacing="15"
-        app:CardVoucher_Color="@color/white">
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:text="Hello World!"
-            android:textSize="40sp"
-            android:textColor="@color/white"
-            android:gravity="center"
-           />
+        app:CardVoucher_Radius="18"
+        app:CardVoucher_Spacing="0"
+        app:CardVoucher_Color="@color/colorPrimary">
+      <include layout="@layout/item_layout"/>
     </com.dalong.cardvoucherlayout.CardVoucherLayout>
 
     <com.dalong.cardvoucherlayout.CardVoucherLayout
         android:layout_width="match_parent"
-        android:layout_height="130dp"
+        android:layout_height="120dp"
         android:gravity="center"
         android:layout_marginTop="20dp"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:background="@color/colorAccent"
         app:CardVoucher_Orientation="vertical"
-        app:CardVoucher_Shape="ellipse"
-        app:CardVoucher_Radius="15"
-        app:CardVoucher_Spacing="15"
-        app:CardVoucher_Color="@color/white">
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:text="Hello World!"
-            android:textSize="40sp"
-            android:textColor="@color/white"
-            android:gravity="center"
-            />
+        app:CardVoucher_Shape="circle"
+        app:CardVoucher_Radius="19"
+        app:CardVoucher_Spacing="0"
+        app:CardVoucher_Color="@color/colorPrimary">
+        <include layout="@layout/item_layout"/>
     </com.dalong.cardvoucherlayout.CardVoucherLayout>
+
+
     <com.dalong.cardvoucherlayout.CardVoucherLayout
         android:layout_width="match_parent"
-        android:layout_height="130dp"
+        android:layout_height="120dp"
         android:gravity="center"
         android:layout_marginTop="20dp"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:background="@color/colorAccent"
-        app:CardVoucher_Shape="ellipse"
+        app:CardVoucher_Shape="circle"
         app:CardVoucher_Orientation="all"
-        app:CardVoucher_Radius="15"
-        app:CardVoucher_Spacing="15"
-        app:CardVoucher_Color="@color/white">
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:text="Hello World!"
-            android:textSize="40sp"
-            android:textColor="@color/white"
-            android:gravity="center"
-            />
+        app:CardVoucher_Radius="18"
+        app:CardVoucher_Spacing="0"
+        app:CardVoucher_Color="@color/colorPrimary">
+        <include layout="@layout/item_layout"/>
     </com.dalong.cardvoucherlayout.CardVoucherLayout>
 </LinearLayout>

@@ -1,28 +1,39 @@
 # 卡券常用的锯齿布局
 
-效果图:
-##1、矩形 (CardVoucher_Shape="rectangle")
-![image](https://github.com/dalong982242260/CardVoucher/blob/master/img/juxing.png)
-##2、三角形 (CardVoucher_Shape="triangle")
-![image](https://github.com/dalong982242260/CardVoucher/blob/master/img/sanjiao.png)
-##3、椭圆 (CardVoucher_Shape="ellipse")
-![image](https://github.com/dalong982242260/CardVoucher/blob/master/img/tuoyuan.png)
-##4、圆形 (CardVoucher_Shape="circle")
-![image](https://github.com/dalong982242260/CardVoucher/blob/master/img/yuanxing.png)
+##效果图:
+![image](https://github.com/dalong982242260/CardVoucher/blob/master/img/6.png)
 
-##1、水平 ( app:CardVoucher_Orientation="horizontal")
+##XML Definition
 
-![image](https://github.com/dalong982242260/CardVoucher/blob/master/img/cardvoucher1.png)
+        <com.dalong.cardvoucherlayout.CardVoucherLayout
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@color/colorAccent"
+                app:CardVoucher_Orientation="vertical"
+                app:CardVoucher_Shape="circle"
+                app:CardVoucher_Radius="19"
+                app:CardVoucher_Spacing="0"
+                app:CardVoucher_Color="@color/colorPrimary">
+                <include layout="@layout/item_layout"/>
+            </com.dalong.cardvoucherlayout.CardVoucherLayout>
 
-##2、竖直 ( app:CardVoucher_Orientation="vertical")
-
-![image](https://github.com/dalong982242260/CardVoucher/blob/master/img/cardvoucher2.png)
-
-##3、水平和竖直 (  app:CardVoucher_Orientation="all")
-
-![image](https://github.com/dalong982242260/CardVoucher/blob/master/img/cardvoucher3.png)
+##Attributes
+        
+        |name|format|description|
+        |:---:|:---:|:---:|
+        | CardVoucher_Radius | float |设置半径
+        | CardVoucher_Spacing | float |设置间距
+        | CardVoucher_Color | color |设置锯齿颜色
+        | CardVoucher_Orientation | integer |设置方向
+        | CardVoucher_Shape | integer |设置图形
 
 
 ##如何使用:
 
-        compile 'com.dalong:cardvoucher:1.0.0'
+        dependencies {
+             compile 'com.dalong:cardvoucher:1.0.0'
+        }      
