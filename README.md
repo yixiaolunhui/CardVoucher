@@ -22,14 +22,14 @@
             </com.dalong.cardvoucherlayout.CardVoucherLayout>
 
 ##Attributes
-        
-        |name|format|description|
-        |:---:|:---:|:---:|
-        | CardVoucher_Radius | float |设置半径
-        | CardVoucher_Spacing | float |设置间距
-        | CardVoucher_Color | color |设置锯齿颜色
-        | CardVoucher_Orientation | integer |设置方向
-        | CardVoucher_Shape | integer |设置图形
+
+|name|format|description|
+|:---:|:---:|:---:|
+| CardVoucher_Radius | float |设置半径
+| CardVoucher_Spacing | float |设置间距
+| CardVoucher_Color | color |设置锯齿颜色
+| CardVoucher_Orientation | integer |设置方向
+| CardVoucher_Shape | integer |设置图形
 
 
 ##如何使用:
